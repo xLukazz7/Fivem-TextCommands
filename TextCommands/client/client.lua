@@ -10,8 +10,8 @@ RegisterCommand('carsinfo', function (source, args)
     })
 end);
 
-RegisterCommand('ToDO', function (source, args)
+RegisterCommand('todo', function (source, args)
     TriggerEvent('chat:addMessage', {
-        args = {'*/car command maar dan voor helikopters. *X Y Z Coordinaten met /getcoords'}
+        args = {'*/car command maar dan voor helikopters. *X Y Z Coordinaten met /getcoords *Loadingscreen. *Custom kleren.'}
     })
 end);
